@@ -1,6 +1,6 @@
-import { FACT } from './constants';
-import { getFact } from './requests';
-import { FactDefinition } from './types';
+import { FACT } from "./constants";
+import { getFact } from "./requests";
+import { FactDefinition } from "./types";
 
 export const validateLenght = async ():Promise<boolean> => {
     try {

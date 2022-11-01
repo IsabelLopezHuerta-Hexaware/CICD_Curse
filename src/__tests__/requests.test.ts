@@ -1,5 +1,5 @@
 import {isResponseValid, getFact, getFactsList} from "../requests";
-import axios from 'axios';
+import axios from "axios";
 import { FactsDefinition } from "../types";
 
 describe("isResponseValid", () => {
